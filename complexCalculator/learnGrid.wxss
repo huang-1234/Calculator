@@ -1,0 +1,72 @@
+.calculator {
+  display: block;
+  width: 700px;
+  border: 1px solid aqua;
+}
+.calculator input {
+  outline-style: none;
+  box-sizing: border-box;
+  border: 0px;
+  border: 2px solid #cccccc;
+  margin: -2px;
+  height: 50px;
+  width: 700px;
+}
+.calculator .container {
+  display: flex;
+  justify-content: center;
+}
+.calculator .container .operator {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(6, 50px);
+}
+.calculator .container .operator .operator-cell {
+  border: 1px solid white;
+  text-align: center;
+  line-height: 50px;
+}
+.calculator .container .operator .operator-cell:hover {
+  background-color: blue;
+  color: #fff;
+}
+.calculator .container .box-number {
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(6, 50px);
+}
+.calculator .container .box-number .number-char {
+  background: #3a998c;
+  border: 1px solid white;
+  border-radius: 7.5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+.calculator .container .box-number #equal {
+  background-color: red;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+.calculator .container .box-number .number-char:hover {
+  background-color: black;
+  color: #fff;
+}
+.calculator .container .box-number .number {
+  background: #6ec2b0;
+  border: 1px solid white;
+  border-radius: 7.5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+.calculator .container .box-number .number:hover {
+  background-color: black;
+  color: #fff;
+}

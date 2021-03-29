@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./learnGrid.css">
+</head>
+<body>
+  <script defer src="./complexCalculator.js"></script>
+  <div class="calculator" >
+    <input type="text" name="" id="dispaly" placeholder="计算器">
+    <div class="container">
+      <div class="operator" onclick="rec()">
+        <div class="operator-cell">(</div>
+        <div class="operator-cell">)</div>
+        <div class="operator-cell">1/x</div>
+        <div class="operator-cell">X^2</div>
+        <div class="operator-cell">X^3</div>
+        <div class="operator-cell">X^y</div>
+        <div class="operator-cell">X!</div>
+        <div class="operator-cell">gen</div>
+        <div class="operator-cell">ygenx</div>
+        <div class="operator-cell">e</div>
+        <div class="operator-cell">ln</div>
+        <div class="operator-cell">log</div>
+        <div class="operator-cell">sin</div>
+        <div class="operator-cell">cos</div>
+        <div class="operator-cell">tan</div>
+        <div class="operator-cell">lnv</div>
+        <div class="operator-cell">Deg</div>
+        <div class="operator-cell">pei</div>
+      </div>
+      <div class="box-number">
+        <div class="number-char">+</div>
+        <div class="number-char">-</div>
+        <div class="number-char">*</div>
+        <div class="number-char">/</div>
+        <div class="number-char">m1</div>
+        <div class="number-char">m2</div>
+        <div class="number-char" id="reset">清空</div>
+        <div class="number-char">back</div>
+        <div class="number-char" id='equal' onclick="sum()">=</div>
+
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+        <div class="number">%</div>
+        <div class="number">0</div>
+        <div class="number">.</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
