@@ -1,2 +1,3 @@
 # Calculator
-模仿手机的计算器
+
+tyr to make a caculator by imitating phone
